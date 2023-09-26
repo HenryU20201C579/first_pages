@@ -1,0 +1,62 @@
+table {
+    width: 900px;
+    border-collapse: collapse;
+          }           
+  th, td {
+    border: none; /* Eliminar bordes */
+    padding: 8px;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;          
+  }
+  th {
+    font-size: 19px;
+  }
+  td{
+    font-size: 15px;
+  }
+  th {
+    background-color: whithe;
+    font-weight: bold;
+  }          
+  tr:nth-child(odd) td {
+    background-color: #fff; /* Fondo gris */
+  }
+  tr:nth-child(even) td {
+    background-color: #ebeced; /* Fondo blanco */        
+  }
+  
+  .hide {
+      display: none;
+  }
+  
+  #toggleView {
+      background-color: #e23e57;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      margin-top: 10px;
+      font-family: 'Poppins', sans-serif;
+  }
+  
+  #toggleView:hover {
+      background-color: #000000; /* Un color un poco más oscuro para el hover */
+  }
+  @media (max-width: 600px) {
+      table {
+          width: 100%;       
+          max-width: 600px; 
+          overflow-x: auto;  
+      }
+  
+      th, td {
+          padding: 6px;
+          font-size: 14px;
+      }
+  
+  
+  
+  
+          
+    
+      
